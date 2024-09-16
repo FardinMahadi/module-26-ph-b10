@@ -6,6 +6,22 @@
     <title>Different Types of Event in Web</title>
   </head>
   <body>
+    <h1 onclick="console.log('I am clicked');">DOM er ajke special events</h1>
+    <button
+      title="This is a tooltip"
+      onclick="console.log(Math.floor(Math.random()*11));"
+    >
+      Click Me!
+    </button>
+    <button onclick="makeRed()">Make Red</button>
+    <button onclick="document.body.style.backgroundColor = 'Yellow'">
+      Make Yellow
+    </button>
+    <button id="make-blue">Make Blue</button>
+    <button id="make-purple">Make purple</button>
+    <button id="make-pink">Make Pink</button>
+    <button id="make-green">Make Green</button>
+    <button id="make-goldenrod">Make goldenRod</button>
     <script src="js/event.js"></script>
   </body>
 </html>
